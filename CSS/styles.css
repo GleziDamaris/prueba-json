@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #535853;
+}
+
+.posts{
+    width: 1024px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* Display es como ordenar, grid es parrilla, grid siempre necesita grid-template-colums */
+    gap: 15px;
+    /* Gap es un espacio de separación */
+}
+
+.post img {
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+.post img:hover {
+    transform: scale(1.05);
+}
+
+.albums{
+    width: 1024px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+
+.posts2{
+    width: 1024px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+
+.todos{
+    width: 1024px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+
+.fotos{
+    width: 1024px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
